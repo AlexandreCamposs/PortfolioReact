@@ -1,4 +1,4 @@
-import '../styles/components/MainContent.sass'
+import '../styles/components/mainContent.sass'
 import AboutContainer from './AboutContainer'
 import ProjectsContainer from './ProjectsContainer'
 import TecnogiesContainer from './TechnologiesContainer'
@@ -6,7 +6,7 @@ import TecnogiesContainer from './TechnologiesContainer'
 
 function MainContent(){
   return(
-    <main id='main-content' >
+    <main id="main-content" >
      <AboutContainer/>
      <TecnogiesContainer/>
      <ProjectsContainer/>
