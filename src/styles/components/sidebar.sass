@@ -9,23 +9,27 @@
   align-items: center
   flex-direction: column
   text-align: center
-  position: relative
+  // position: relative
   padding: 3rem
   img
-    max-width: 70% 
-    border-radius: variables.$card-border-radius
-    position: absolute
-    top: -3rem
+    max-width: 60% 
+    border-radius: 100%
+    // position: absolute
+    // top: -3rem
     
 
   .title  
     color: variables.$text-color-secondary
     background-color: variables.$bg-color-secondary
     border-radius: variables.$card-border-radius
-    margin-top: 12rem
+    margin-top: 3rem
     padding: .8rem 1.2rem
   
   .btn
     @include mixins.btn
     
- 
+@media screen and (max-width: 420px)  
+  #information
+    width: 100% 
+
+
